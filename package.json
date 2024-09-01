@@ -1,0 +1,28 @@
+{
+  "name": "user-management-service",
+  "version": "1.0.0",
+  "description": "personalized learning platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurav-rvce/UserManagement.git"
+  },
+  "keywords": [
+    "personalized-learning"
+  ],
+  "author": "kumar gaurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaurav-rvce/UserManagement/issues"
+  },
+  "homepage": "https://github.com/gaurav-rvce/UserManagement#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.0"
+  }
+}
